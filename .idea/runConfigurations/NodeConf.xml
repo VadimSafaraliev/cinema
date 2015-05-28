@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="NodeConf" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="E:/node js/nodejs/node" path-to-js-file="createDb.js" working-dir="$PROJECT_DIR$">
+    <envs>
+      <env name="DEBUG" value="Cinema" />
+      <env name="NODE_PATH" value="." />
+      <env name="NODE_ENV" value="development" />
+    </envs>
+    <browser url="http://localhost:3000/" />
+    <RunnerSettings RunnerId="Basic" />
+    <ConfigurationWrapper RunnerId="Basic" />
+    <method />
+  </configuration>
+</component>
