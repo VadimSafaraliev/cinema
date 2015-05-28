@@ -1,0 +1,9 @@
+body {
+  background: url(../images/background2.jpg);
+  background-size: cover;
+}
+#centered {
+  margin-left:auto;
+  margin-right:auto;
+  width:100px;
+}
