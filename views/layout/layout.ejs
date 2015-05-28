@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <title><%=blocks.title%></title>
+
+    <link rel="stylesheet" href="/stylesheets/style.css"/>
+    <link rel="stylesheet" href="/stylesheets/bootstrap/dist/css/bootstrap.css"/>
+    <scripts src="/jquery/dist/jquery.js"></scripts>
+    <scripts src="/bootstrap/dist/js/bootstrap.js"></scripts>
+</head>
+<body>
+<header>
+    <%-blocks.header%>
+</header>
+<form method="get" action="<%=blocks.__dirname %>">
+<section class="container">
+    <%-partial('../partials/topNavigation')%>
+    <%- body %>
+</section>
+</form>
+<footer>
+    <%-blocks.footer%>
+</footer>
+</body>
+</html>
